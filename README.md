@@ -6,6 +6,11 @@
 # MATA KUL: SISTEM BASIS DATA 
 # DOSEN   : Muhammad Najamuddin Dwi Miharja, S.Kom, M.kom
 
+# TAMPILIN DASHBORD KLINIK SEHAT SEJAHTERA
+
+![image](https://user-images.githubusercontent.com/101733752/179364899-83c2fc4c-7faa-41a3-a851-743da71fd1ab.png)
+
+
 # Tugas UTS sebelumnya saya membuat sebuah sistem informasi klinik sederhana. 
 
 disini saya akan menampilkan : 
@@ -39,7 +44,7 @@ disini saya akan menampilkan :
 
 - Modul data Dokter
 
-Seperti data pasien data dokter bisa di berikan perintah tamabah, hapus dan juga edit.
+Seperti data pasien data dokter bisa di berikan perintah tambah, hapus dan juga edit.
 
 ![image](https://user-images.githubusercontent.com/101733752/179364140-989bc35e-c93e-4210-8d72-3d4b44a8b21d.png)
 
@@ -60,4 +65,24 @@ create trigger update_nama_obat before update on obat for each row insert into l
 ![image](https://user-images.githubusercontent.com/101733752/179364189-01711a97-b349-4201-a534-2cf61f9fb277.png)
 
 ![image](https://user-images.githubusercontent.com/101733752/179364242-9219838a-c7b6-444c-a973-5dad692834d6.png)
+
+Fungsi dari triger disini untuk menampilkan perubahan nama obat setelah dilakukan proses update.
+
+- Modul data user.
+
+- Modul data user dibuat untuk melakukan proses login
+
+![image](https://user-images.githubusercontent.com/101733752/179364856-2b2ba5f9-2839-406b-856b-8fbbadd8ffdc.png)
+
+![image](https://user-images.githubusercontent.com/101733752/179364987-b965f76c-ad88-44f2-a8ab-c4eb0e1a174d.png)
+
+
+- implementasi view
+// IMPLEMENTASI VIEW
+
+CREATE VIEW viewPenyakit AS SELECT a.id_berobat, b.nama_pasien, b.jenis_kelamin, b.umur, a.keluhan_pasien, a.hasil_diagnosa, a.tgl_berobat, c.nama_dokter FROM berobat a JOIN pasien b ON a.id_pasien=b.id_pasien JOIN dokter c ON a.id_dokter=c.id_dokter WHERE b.jenis_kelamin='L'
+
+// END IMPLEMENTASI VIEW
+
+![image](https://user-images.githubusercontent.com/101733752/179365158-8243b345-a97d-4f6a-86a8-17b05166f42e.png)
 
