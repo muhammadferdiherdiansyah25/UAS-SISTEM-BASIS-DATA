@@ -6,7 +6,7 @@
 # MATA KUL: SISTEM BASIS DATA 
 # DOSEN   : Muhammad Najamuddin Dwi Miharja, S.Kom, M.kom
 
-# TAMPILIN DASHBORD KLINIK SEHAT SEJAHTERA
+# TAMPILAN DASHBORD KLINIK SEHAT SEJAHTERA
 
 ![image](https://user-images.githubusercontent.com/101733752/179364899-83c2fc4c-7faa-41a3-a851-743da71fd1ab.png)
 
