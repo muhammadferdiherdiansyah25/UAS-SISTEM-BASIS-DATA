@@ -4,7 +4,7 @@
 # NIM     : 312010038
 # KELAS   : TI.20 D1
 # MATA KUL: SISTEM BASIS DATA 
-# DOSEN   : 
+# DOSEN   : Muhammad Najamuddin Dwi Miharja, S.Kom, M.kom
 
 # Tugas UTS sebelumnya saya membuat sebuah sistem informasi klinik sederhana. 
 
